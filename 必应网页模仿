@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body background="孔雀绿.webp">
+    
+    <div class="top">
+        <dl>
+            <dd><div style="float:left;margin-right: 2px"><img src="小方块.png"></div>
+            <div><img src="文字.png" class="文字"></div></dd>
+            <dd class="rline"><a href="" class="link1">图片</a></dd>
+            <dd class="rline"><a href="" class="link1">视频</a></dd>
+            <dd class="rline"><a href="" class="link1">翻译</a> </dd>
+            <dd class="rline"><a href="" class="arrow link1">其他</a></dd>
+            <dd class="rline">
+                <a href="" class="link2">
+                    <select class="选择">
+                        <option value="1">学术</option>
+                        <option value="2">词典</option>
+                        <option value="3">地图</option>
+                    </select>
+                </a>
+            </dd>
+        </dl>
+    </div>
+
+    <style>
+    .top{
+        height:30px;
+        line-height: 30px;
+    }
+    .top dd{
+        float: left;
+        color: rgb(97, 21, 120);
+        text-align: center;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .link1{
+        color: rgb(228, 230, 197);
+        text-decoration: none;
+    }
+    .link1:hover{
+        text-decoration: underline;
+    }
+    .link2{
+        color: rgb(228, 230, 197);
+        text-decoration: none;
+        float: right;
+    }
+    .rline{
+        background: url(小熊.webp);
+        position: relative;
+        left: 160px;
+        top: 5px;
+    }
+    .文字{
+        position: absolute;
+    }
+    .搜索{
+        position: relative;
+        margin:  200px 200px 200px 460px;
+        padding: 10px 50px 10px;
+    }
+    .选择{
+        padding: 15px 15px 15px 15px;
+    }
+    </style>
+    <input type="text" name="search" maxlength="50" class="搜索" >
+    <button type="button" class="button">search</button>
+</body>
+</html>
